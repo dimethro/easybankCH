@@ -1,35 +1,69 @@
-.navdiv{
-    font-size: 11px; 
-    text-align: center;
-    margin: 0;
-    padding : 0;
-    background-color: bisque;
-    font-family: "Public Sans", serif;
-    border-color: black;
-}
-
 .navbar{
-    border: 3px;
-    border-color: black;
-}
+    font-size: 18px; 
+    margin: 0;
+    background-color: hsl(0, 0%, 98%);
+    padding : 1rem 2rem 1rem 2rem ;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-.navbutton{
+
+
+}
+.navitem{
+    margin: 0 1rem 0 1rem;
+    text-decoration: none;
+}
+.navbuttonlayout{
     border:none;
     border-radius : 12px;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    background: linear-gradient(to right, #86e4a1 0%, #81d1e0 100%);
+    transition-duration: 0.1s;
+}
+.navbuttonlayout:hover{
+    cursor: pointer;
+    color:hsl(0, 0%, 100%);
+    background: linear-gradient(180deg, #86e4a1 0%, #81d1e0 100%);
+}
 
+
+.logo{
+    display:flex;
+
+}
+
+.logoimg{
+    width: 100%;
+    height: 100%;
 }
 
 
 
+.fp_taste{
+    color:hsl(233, 8%, 62%)
+}
+.fpbutton{
+    background: linear-gradient(to right, #86e4a1 0%, #81d1e0 100%);
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    padding: 12px;
+    width:150px;
+    color: black;
+    transition-duration: 0.1s;
 
+}
 
-
-
-
+.fpbutton:hover{
+    cursor: pointer;
+    color:hsl(0, 0%, 100%);
+    background: linear-gradient(180deg, #86e4a1 0%, #81d1e0 100%);
+}
 
 li{
     display: inline;
@@ -40,3 +74,13 @@ li{
     float: left;
 }
 
+body{
+    margin:0;
+    padding:0;
+    background-color: hsl(0, 0%, 98%);
+    background-image: url(/images/bg-intro-desktop.svg) ;
+    background-repeat: no-repeat;
+    background-position: 700px;
+    font-size: 18px;
+    font-family: "Public Sans", serif;
+}
