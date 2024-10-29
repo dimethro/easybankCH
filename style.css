@@ -3,14 +3,16 @@
     text-align: center;
     margin: 0;
     padding : 0;
-    background-color: bisque;
+    background-color: rgb(255, 255, 255);
     font-family: "Public Sans", serif;
-    border-color: black;
 }
 
 .navbar{
     border: 3px;
     border-color: black;
+    margin: 0;
+    padding: 0;
+
 }
 
 .navbutton{
@@ -20,23 +22,50 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    background: linear-gradient(to right, #86e4a1 0%, #81d1e0 100%);
 
 }
 
+.logo{
+    float:left;
+    padding-top: 14px;
+}
 
+.firstpanel{
+    padding: 100px;
+    justify-content:left;
 
+}
+.boldquote{
+    font-weight: 400;
+    color: hsl(233, 26%, 24%);
 
+}
+.fp_taste{
+    color:hsl(233, 8%, 62%)
+}
+.fpbutton{
+    background: linear-gradient(to right, #86e4a1 0%, #81d1e0 100%);
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    padding: 12px;
+    width:150px;
+    color: hsl(0, 0%, 100%);
 
-
-
-
-
+}
 li{
     display: inline;
     padding: 20px;
 }
 
-.logo{
-    float: left;
-}
 
+body{
+    background-color: hsl(0, 0%, 98%);
+    background-image: url(/images/bg-intro-desktop.svg) ;
+    background-repeat: no-repeat;
+    background-position: 600px;
+    background-size: -50%;
+    font-size: 18px;
+    font-family: "Public Sans", serif;
+}
