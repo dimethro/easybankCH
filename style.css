@@ -42,8 +42,21 @@
     height: 100%;
 }
 
+.logo{
+    float:left;
+    padding-top: 14px;
+}
 
+.firstpanel{
+    padding: 100px;
+    justify-content:left;
 
+}
+.boldquote{
+    font-weight: 400;
+    color: hsl(233, 26%, 24%);
+
+}
 .fp_taste{
     color:hsl(233, 8%, 62%)
 }
@@ -54,17 +67,9 @@
     text-align: center;
     padding: 12px;
     width:150px;
-    color: black;
-    transition-duration: 0.1s;
+    color: hsl(0, 0%, 100%);
 
 }
-
-.fpbutton:hover{
-    cursor: pointer;
-    color:hsl(0, 0%, 100%);
-    background: linear-gradient(180deg, #86e4a1 0%, #81d1e0 100%);
-}
-
 li{
     display: inline;
     padding: 20px;
@@ -73,14 +78,45 @@ li{
 .logo{
     float: left;
 }
+.firstpanel{
+    width: 100%;
+    padding: 10rem 4rem 15rem 4rem;
+    background-color: hsl(0, 0%, 98%);
+    background-image: url(images/bg-intro-desktop.svg);
+    background-attachment: local;
+    background-size: 1300px;
+    background-position: 125%;
+    background-repeat: no-repeat;
+
+}
+.firstpanel_text{
+    margin:0;
+    padding:0;
+}
+.secondpanel{
+    padding: 10rem 4rem 15rem 4rem;
+}
+
+.secondpanel_text{
+    margin:0;
+    padding:0;
+}
+
+
+
+.intropanelimg{
+    height:100%;
+    width:100%;
+}
+
+
 
 body{
     margin:0;
     padding:0;
-    background-color: hsl(0, 0%, 98%);
-    background-image: url(/images/bg-intro-desktop.svg) ;
+    background-color: hsl(220, 16%, 96%);
     background-repeat: no-repeat;
-    background-position: 700px;
+    background-position: 500px;
     font-size: 18px;
     font-family: "Public Sans", serif;
 }
