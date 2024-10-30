@@ -59,13 +59,48 @@ li{
     padding: 20px;
 }
 
+.logo{
+    float: left;
+}
+.firstpanel{
+    width: 100%;
+    padding: 10rem 4rem 15rem 4rem;
+    background-color: hsl(0, 0%, 98%);
+    background-image: url(images/bg-intro-desktop.svg);
+    background-attachment: local;
+    background-size: 1300px;
+    background-position: 125%;
+    background-repeat: no-repeat;
+
+}
+.firstpanel_text{
+    margin:0;
+    padding:0;
+}
+.secondpanel{
+    padding: 10rem 4rem 15rem 4rem;
+}
+
+.secondpanel_text{
+    margin:0;
+    padding:0;
+}
+
+
+
+.intropanelimg{
+    height:100%;
+    width:100%;
+}
+
+
 
 body{
-    background-color: hsl(0, 0%, 98%);
-    background-image: url(/images/bg-intro-desktop.svg) ;
+    margin:0;
+    padding:0;
+    background-color: hsl(220, 16%, 96%);
     background-repeat: no-repeat;
-    background-position: 600px;
-    background-size: -50%;
+    background-position: 500px;
     font-size: 18px;
     font-family: "Public Sans", serif;
 }
