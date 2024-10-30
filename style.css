@@ -1,3 +1,6 @@
+nav{
+    position: sticky;
+}
 .navbar{
     font-size: 18px; 
     margin: 0;
@@ -8,8 +11,7 @@
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-
+    z-index: 2;
 
 }
 .navitem{
@@ -22,12 +24,12 @@
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
+    color:hsl(0, 0%, 100%);
     background: linear-gradient(to right, #86e4a1 0%, #81d1e0 100%);
     transition-duration: 0.1s;
 }
 .navbuttonlayout:hover{
     cursor: pointer;
-    color:hsl(0, 0%, 100%);
     background: linear-gradient(180deg, #86e4a1 0%, #81d1e0 100%);
 }
 
@@ -70,24 +72,35 @@
     color: hsl(0, 0%, 100%);
 
 }
+.fpbutton:hover{
+    cursor: pointer;
+    color:hsl(0, 0%, 100%);
+    background: linear-gradient(180deg, #86e4a1 0%, #81d1e0 100%);
+}
 li{
     display: inline;
     padding: 20px;
 }
 
-.logo{
-    float: left;
+.panels{
+    position:relative;
 }
 .firstpanel{
-    width: 100%;
+    width:100%;
     padding: 10rem 4rem 15rem 4rem;
     background-color: hsl(0, 0%, 98%);
     background-image: url(images/bg-intro-desktop.svg);
     background-attachment: local;
-    background-size: 1300px;
-    background-position: 125%;
     background-repeat: no-repeat;
+    background-position: 160% center;
+    background-size: auto 190%;
 
+}
+.mockupimg{
+    position: absolute;
+    top:-2%;
+    left:60%;
+    z-index: 0;
 }
 .firstpanel_text{
     margin:0;
@@ -119,4 +132,6 @@ body{
     background-position: 500px;
     font-size: 18px;
     font-family: "Public Sans", serif;
+    position: relative;
 }
+
