@@ -59,6 +59,18 @@ nav{
     color: hsl(233, 26%, 24%);
 
 }
+.boldquotemedium{
+    font-weight: 300;
+    font-size: 30px;
+    color: hsl(233, 26%, 24%);
+}
+
+.boldquotesmall{
+    font-weight: 200;
+    font-size: 24px;
+    color: hsl(233, 26%, 24%);
+}
+
 .fp_taste{
     color:hsl(233, 8%, 62%)
 }
@@ -107,7 +119,7 @@ li{
     padding:0;
 }
 .secondpanel{
-    padding: 10rem 4rem 15rem 4rem;
+    padding: 10rem 4rem 8rem 4rem;
 }
 
 .secondpanel_text{
@@ -122,6 +134,37 @@ li{
     width:100%;
 }
 
+.infocards{
+    display:flex;
+    justify-content: space-between;
+    padding: 2rem 4rem 8rem 4rem;
+}
+
+
+.article{
+    background-color:hsl(0, 0%, 98%) ;
+    padding: 2rem 4rem 8rem 4rem;
+}
+.articlecards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardimg{
+    display: flex;
+    justify-content: space-between;
+    align-items: justify;
+    width:70%;
+    height: 50%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.cards{
+    position:center;
+    justify-content: space-between;
+}
+
 
 
 body{
@@ -133,5 +176,6 @@ body{
     font-size: 18px;
     font-family: "Public Sans", serif;
     position: relative;
+
 }
 
